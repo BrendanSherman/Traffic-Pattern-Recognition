@@ -5,7 +5,6 @@
 import torch
 import torch.nn as nn
 import torchvision.models as models
-from torchvision.transforms import transforms
 
 class VideoClassifier(nn.Module):
     def __init__(self, num_classes):
